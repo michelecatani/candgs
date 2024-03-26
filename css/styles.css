@@ -83,7 +83,7 @@
   --custom-color-faded: #D66F1C;
   --custom-background-gradient-start: rgba(0, 0, 0, 0.65);
   --custom-background-gradient-end: rgba(255, 255, 255, 0.65);
-  --custom-footerNav-bg: rgba(6, 1, 0, 0.9);
+  --custom-footerNav-bg: black;
   --custom-cta-bg: rgba(230, 167, 86, 0.9);
   --custom-btn-shadow: rgba(33, 37, 41, 0.1);
   --custom-cta-border: rgba(255, 255, 255, 0.85);
@@ -109,15 +109,15 @@
   width: 100px;
   text-align: center;
   text-decoration: none;
+  color: black;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /* Set a specific color for each brand */
-
 
 html {
   height:100%;
@@ -292,6 +292,7 @@ textarea {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -852,6 +853,15 @@ p {
   color: var(--custom-color-faded);
 }
 
+.orange {
+  color: var(--custom-color-faded)
+}
+
+.orangeP {
+  padding-top: 2rem;
+  color: var(--custom-color-faded)
+}
+
 .site-heading {
   margin-top: 3rem;
   text-transform: uppercase;
@@ -979,7 +989,7 @@ p {
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
-    float: right;
+    float: center;
   }
   .intro .intro-text {
     left: 0;
