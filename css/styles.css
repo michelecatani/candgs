@@ -990,6 +990,7 @@ p {
   .intro .intro-img {
     width: 75%;
     float: center;
+    max-width: 700px;
   }
   .intro .intro-text {
     left: 0;
