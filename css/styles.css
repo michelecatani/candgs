@@ -881,7 +881,7 @@ p {
   margin-top: 3rem;
 }
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: calc(3rem + 1.5vw);
   font-weight: 800;
   line-height: 4rem;
 }
